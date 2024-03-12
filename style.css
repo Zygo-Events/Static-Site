@@ -1,0 +1,146 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 100;
+  bottom: 100;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #ffff;
+  width: 100%;
+  max-width: 980px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+}
+
+.logo-container img {
+  width: 164px;
+  height: 155px;
+}
+.info {
+  margin-left: 100px;
+}
+.banner h1 {
+  font-size: 80px;
+  line-height: 2px;
+}
+.banner h2 {
+  font-size: 55px;
+  line-height: 2px;
+  padding: 40px 0;
+}
+.description {
+  padding: 0 270px;
+}
+.about-us {
+  padding: 0 350px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 50px;
+}
+.item {
+  grid-column: span 1;
+}
+.item:nth-last-child(1):nth-child(odd) {
+  grid-column: 2 / span 1;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title {
+}
+.button {
+  margin-top: 10px;
+  box-shadow: 0 0 53px 3px rgba(0, 0, 0, 0.5);
+
+  transition: all 0.2s ease, visibility 0s;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 28px;
+  cursor: pointer;
+  color: #ffff;
+}
+.button:hover {
+  border: 1px solid #ffffff;
+}
+.card-container .card:nth-child(1) .button {
+  background: rgba(255, 109, 247, 0.47);
+}
+.card-container .card:nth-child(1) .button:hover {
+  background: #ff6df7;
+}
+.card-container .card:nth-child(2) .button {
+  background: rgba(49, 147, 122, 0.47);
+}
+.card-container .card:nth-child(2) .button:hover {
+  background: #31937a;
+}
+.card-container .card:nth-child(3) .button {
+  background: rgba(255, 131, 0, 0.47);
+}
+.card-container .card:nth-child(3) .button:hover {
+  background: #ff8300;
+}
+.card-container .card:nth-child(4) .button {
+  background: rgba(230, 33, 129, 0.47);
+}
+.card-container .card:nth-child(4) .button:hover {
+  background: #e62181;
+}
+.card-container .card:nth-child(5) .button {
+  background: rgba(41, 56, 95, 0.5);
+}
+.card-container .card:nth-child(5) .button:hover {
+  background: #29385f;
+}
+.card-container .card:nth-child(6) .button {
+  background: rgba(18, 255, 235, 0.5);
+}
+.card-container .card:nth-child(6) .button:hover {
+  background: #12ffeb;
+}
+.card-container .card:nth-child(7) .button {
+  background: rgba(249, 70, 223, 0.49);
+}
+.card-container .card:nth-child(7) .button:hover {
+  background: #f946df;
+}
+.card-container .card:nth-child(8) .button {
+  background: rgba(230, 33, 67, 0.47);
+}
+.card-container .card:nth-child(8) .button:hover {
+  background: #e62143;
+}
+.card-container .card:nth-child(9) .button {
+  background: rgba(226, 157, 98, 0.5);
+}
+.card-container .card:nth-child(9) .button:hover {
+  background: #e29d62;
+}
